@@ -157,7 +157,8 @@
         "Tipo",
         "Stato",
         "Scadenza"
-      ]
+      ],
+      "chartColumn": 4
     },
     {
       "id": "uffici-e-regole",
@@ -266,6 +267,14 @@
       "role": "cell",
       "pageId": "registro-protocolli",
       "column": "Ufficio assegnato"
+    },
+    {
+      "name": "DashboardDirigenziale",
+      "title": "Dashboard dirigenziale",
+      "description": "Indicatori e rapporto aggiornati dai dati del Registro protocolli.",
+      "role": "section",
+      "pageId": "cruscotto",
+      "position": "top"
     }
   ]
 }
