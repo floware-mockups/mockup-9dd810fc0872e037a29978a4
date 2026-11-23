@@ -257,5 +257,15 @@
   "theme": {
     "palette": "bordeaux-oro",
     "fonts": "classico"
-  }
+  },
+  "custom": [
+    {
+      "name": "ValidazioneAssegnazione",
+      "title": "Validazione dell’ufficio assegnato",
+      "description": "Consente di confermare o rifiutare l’ufficio proposto e conserva l’esito nella stessa cella.",
+      "role": "cell",
+      "pageId": "registro-protocolli",
+      "column": "Ufficio assegnato"
+    }
+  ]
 }
