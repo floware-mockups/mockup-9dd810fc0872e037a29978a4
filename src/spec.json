@@ -1,0 +1,261 @@
+{
+  "title": "Smistamento dei protocolli",
+  "description": "Registra i protocolli e consulta il suggerimento di ufficio basato sull’oggetto e sulle regole condivise.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Una vista rapida sui protocolli e sulle pratiche da controllare.",
+      "metrics": [
+        {
+          "label": "Protocolli di oggi",
+          "value": "12"
+        },
+        {
+          "label": "Da smistare",
+          "value": "3"
+        },
+        {
+          "label": "Arrivi del mese",
+          "value": "86"
+        },
+        {
+          "label": "Partenze del mese",
+          "value": "41"
+        }
+      ],
+      "columns": [
+        "Numero protocollo",
+        "Data",
+        "Oggetto",
+        "Ufficio assegnato",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-2026-0142",
+          "2026-06-18",
+          "Richiesta di accesso a documenti d’archivio",
+          "Archivio e atti",
+          "Da verificare",
+          "2026-06-23"
+        ],
+        [
+          "PR-2026-0141",
+          "2026-06-18",
+          "Manutenzione dell’illuminazione in piazza delle Vele",
+          "Lavori e spazi pubblici",
+          "Assegnato",
+          "2026-06-25"
+        ],
+        [
+          "PR-2026-0140",
+          "2026-06-17",
+          "Richiesta di occupazione temporanea del suolo",
+          "Permessi e attività",
+          "In lavorazione",
+          "2026-06-22"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-protocolli",
+      "title": "Registro protocolli",
+      "description": "Cerca e filtra gli elementi. Il suggerimento di ufficio considera solo l’oggetto; controlla l’assegnazione prima di confermarla.",
+      "metrics": [],
+      "columns": [
+        "Numero protocollo",
+        "Data",
+        "Oggetto",
+        "Mittente",
+        "Ufficio assegnato",
+        "Tipo",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-2026-0142",
+          "2026-06-18",
+          "Richiesta di accesso a documenti d’archivio",
+          "Fondazione Nubi",
+          "Archivio e atti",
+          "Arrivo",
+          "Da verificare",
+          "2026-06-23"
+        ],
+        [
+          "PR-2026-0141",
+          "2026-06-18",
+          "Manutenzione dell’illuminazione in piazza delle Vele",
+          "Lumo Servizi Civici",
+          "Lavori e spazi pubblici",
+          "Arrivo",
+          "Assegnato",
+          "2026-06-25"
+        ],
+        [
+          "PR-2026-0140",
+          "2026-06-17",
+          "Richiesta di occupazione temporanea del suolo",
+          "Cooperativa Vela",
+          "Permessi e attività",
+          "Arrivo",
+          "In lavorazione",
+          "2026-06-22"
+        ],
+        [
+          "PR-2026-0139",
+          "2026-06-17",
+          "Invio del riepilogo mensile delle attività",
+          "Ufficio Protocollo e archivio",
+          "Direzione e coordinamento",
+          "Partenza",
+          "Completato",
+          "—"
+        ],
+        [
+          "PR-2026-0138",
+          "2026-06-16",
+          "Segnalazione di una perdita nella rete idrica",
+          "Consorzio Acque Chiare",
+          "Lavori e spazi pubblici",
+          "Arrivo",
+          "Da verificare",
+          "2026-06-21"
+        ],
+        [
+          "PR-2026-0137",
+          "2026-06-16",
+          "Richiesta di aggiornamento dei dati dell’attività",
+          "Bottega delle Nubi",
+          "Permessi e attività",
+          "Arrivo",
+          "Assegnato",
+          "2026-06-24"
+        ],
+        [
+          "PR-2026-0136",
+          "2026-06-15",
+          "Trasmissione della relazione sugli spazi comunali",
+          "Ufficio Protocollo e archivio",
+          "Lavori e spazi pubblici",
+          "Partenza",
+          "In lavorazione",
+          "2026-06-20"
+        ]
+      ],
+      "form": [
+        "Numero protocollo",
+        "Data",
+        "Oggetto",
+        "Mittente",
+        "Ufficio assegnato",
+        "Tipo",
+        "Stato",
+        "Scadenza"
+      ]
+    },
+    {
+      "id": "uffici-e-regole",
+      "title": "Uffici e regole",
+      "description": "Consulta gli argomenti gestiti dai diversi uffici e aggiorna le indicazioni condivise per lo smistamento.",
+      "metrics": [],
+      "columns": [
+        "Ufficio",
+        "Argomenti e parole chiave",
+        "Indicazione condivisa",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Archivio e atti",
+          "Accesso agli atti, fascicoli, conservazione, copie",
+          "Usare per richieste di consultazione o copia di documenti conservati.",
+          "Attiva"
+        ],
+        [
+          "Lavori e spazi pubblici",
+          "Manutenzione, strade, illuminazione, rete idrica, piazze",
+          "Usare per segnalazioni e interventi su spazi o servizi pubblici.",
+          "Attiva"
+        ],
+        [
+          "Permessi e attività",
+          "Occupazione suolo, autorizzazioni, attività, variazioni",
+          "Usare per richieste e aggiornamenti relativi a permessi e attività.",
+          "Attiva"
+        ],
+        [
+          "Direzione e coordinamento",
+          "Relazioni, riepiloghi, comunicazioni interne, indirizzi",
+          "Usare per documenti di coordinamento o trasmissioni interne.",
+          "Attiva"
+        ]
+      ],
+      "form": [
+        "Ufficio",
+        "Argomenti e parole chiave",
+        "Indicazione condivisa",
+        "Stato"
+      ]
+    },
+    {
+      "id": "controlli-in-scadenza",
+      "title": "Controlli e scadenze",
+      "description": "Controlla gli elementi vicini alla scadenza e quelli che richiedono una verifica dell’ufficio suggerito.",
+      "metrics": [
+        {
+          "label": "In scadenza entro 3 giorni",
+          "value": "3"
+        },
+        {
+          "label": "Assegnazioni da verificare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Numero protocollo",
+        "Oggetto",
+        "Ufficio suggerito",
+        "Controllo da fare",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2026-0142",
+          "Richiesta di accesso a documenti d’archivio",
+          "Archivio e atti",
+          "Verificare che l’oggetto indichi una richiesta di accesso.",
+          "2026-06-23",
+          "Da verificare"
+        ],
+        [
+          "PR-2026-0140",
+          "Richiesta di occupazione temporanea del suolo",
+          "Permessi e attività",
+          "Controllare il tema della richiesta e confermare l’ufficio.",
+          "2026-06-22",
+          "In lavorazione"
+        ],
+        [
+          "PR-2026-0138",
+          "Segnalazione di una perdita nella rete idrica",
+          "Lavori e spazi pubblici",
+          "Confermare che si tratti di un intervento sulla rete.",
+          "2026-06-21",
+          "Da verificare"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "bordeaux-oro",
+    "fonts": "classico"
+  }
+}
